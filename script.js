@@ -8,7 +8,7 @@ const drone = new Scaledrone("hSaQHXV8z3CUoESM", {
 
 const messageInput = document.querySelector(".messageInput");
 const messageSend = document.querySelector(".messageSend");
-const messageList = document.querySelector(".messageList");
+const messagesList = document.querySelector(".messageList");
 
 drone.on("open", (error) => {
   if (error) {
