@@ -8,7 +8,7 @@ const drone = new Scaledrone("hSaQHXV8z3CUoESM", {
 
 const messageInput = document.querySelector(".messageInput");
 const messageSend = document.querySelector(".messageSend");
-const messagesList = document.querySelector(".messageList");
+const messageList = document.querySelector(".messageList");
 
 drone.on("open", (error) => {
   if (error) {
@@ -106,7 +106,7 @@ function generateName() {
     "Ivana",
     "Filip",
     "Maja",
-    "Antun",
+    "Keti",
     "Lucija",
     "Juraj",
     "Iris",
@@ -119,7 +119,7 @@ function generateName() {
     "Patrik",
     "Ivana",
     "Bruno",
-    "Katarina",
+    "Mila",
     "Stipe",
     "Ena",
     "Marin",
