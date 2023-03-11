@@ -129,3 +129,4 @@ function generateName() {
   ];
   return names[Math.floor(Math.random() * names.length)];
 }
+
