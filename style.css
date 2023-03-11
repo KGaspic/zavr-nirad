@@ -107,19 +107,21 @@ input {
 }
 
 button {
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to right,
     #cc95c0 0%,
     #dbd4b4 51%,
     #cc95c0 100%
-  );
+  );*/
   padding: 10px 10px;
   font-size: 20px;
   color: white;
+  background-color: #1982FC;
   border: none;
   border-radius: 8px;
   margin-left: 10px;
   cursor: pointer;
   box-shadow: 0 0 20px #ec959f;
+  border: 3px solid black;
 }
 
